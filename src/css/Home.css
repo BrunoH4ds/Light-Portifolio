@@ -65,11 +65,14 @@ body::-webkit-scrollbar {
   margin: 20px;
 }
 
+.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: space-between;
 }
 
 .buttons button {

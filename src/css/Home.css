@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
   width: auto;
   height: 300px;
   filter: drop-shadow(1rem 1rem 1rem black);
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .animate__fadeIn {
@@ -118,6 +118,7 @@ body::-webkit-scrollbar {
   .img img {
     height: 250px;
     width: auto;
+    margin-left: 0;
   }
   .buttons button {
     margin: 10px
